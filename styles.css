@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.animal {
+    max-width: 50vw;
+    max-height: 100vw;
+}
+
+#control-div {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+}
+
+.load-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.load-btns button {
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.status-txt {
+    width: 100%;
+    text-align: center;
+}
+
+#animal-display {
+    max-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.btn-icon {
+    max-height: 7vh;
+}
+
+video {
+    max-height: 85vh;
+}
+
+img {
+    max-height: 85vh;
+}
